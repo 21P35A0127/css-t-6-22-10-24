@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    background-color: pink;
+   
+}
+
+@media  screen and (width >= 600px) {
+    div {
+       
+        box-shadow: 0px 5px 7px 3px black;
+    }
+    
+}
+
+@media  screen and (width < 600px) {
+    div {
+        background-color: pink;
+        
+    }
+    
+}
